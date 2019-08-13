@@ -37,7 +37,8 @@ function draw() {
     arcStart=map(song.currentTime(),0,song.duration(),0,2*PI);
     fill(255);
     strokeWeight(20);
-    arc(height/2, width/2, height/2,height/2, arcStart, 2*PI,PIE);
+    arc(height, width/4, height/2,height/2, arcStart, 2*PI,PIE);
+
 
     //ellipse(mouseX,mouseY,noiseWidth,noiseWidth);
     
