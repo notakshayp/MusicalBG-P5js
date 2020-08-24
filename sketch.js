@@ -14,7 +14,6 @@ function setup() {
 }
 function songReady() {
   console.log("ready");
-  draw();
 }
 function draw() {
   background(r, g, b);
